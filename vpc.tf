@@ -1,5 +1,5 @@
 module "network" {
-  source  = "app.terraform.io/INSTRUQT1/network/google"
+  source  = "terraform-google-modules/network/google"
   version = "3.4.0"
   # insert required variables here
 
