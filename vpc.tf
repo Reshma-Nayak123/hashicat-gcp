@@ -1,6 +1,6 @@
 module "network" {
-  source  = "app.terraform.io/INSTRUQT1/network/google"
-  version = "3.4.0"
+  source  = "terraform-google-modules/network/google"
+  version = "4.1.0"
   # insert required variables here
   network_name= "eshma-network"
   project_id =var.project
